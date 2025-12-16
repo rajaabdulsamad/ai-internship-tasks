@@ -1,1 +1,22 @@
+Task 2: Short-Term Stock Price Prediction
 
+Objective:
+To predict the next day's closing stock price using historical data.
+
+Dataset:
+Stock data retrieved from Yahoo Finance using yfinance.
+
+Model Used:
+Linear Regression
+
+Features:
+- Open
+- High
+- Low
+- Volume
+
+Target:
+- Next day Close price
+
+Result:
+The model predicts future closing prices and compares them with actual values using a line plot.
