@@ -95,6 +95,83 @@ The goal of this project is to demonstrate binary classification, medical data a
 - Exercise induced angina (`exang`)
 - Number of major vessels (`ca`)
 
+4.General Health Query Chatbot
+
+Prompt Engineering Based
+
+Project Description
+
+This project implements a simple General Health Query Chatbot using a Large Language Model (LLM). The chatbot is designed to answer general health-related questions in a friendly and easy-to-understand manner while strictly avoiding medical diagnosis or harmful advice.
+
+The main focus of this project is prompt engineering, safe response handling, and building a basic conversational AI system.
+
+Objective
+
+To build a chatbot that answers general health questions
+
+To use prompt engineering to control AI behavior
+
+To apply safety filters to avoid harmful medical advice
+
+To demonstrate basic usage of LLMs through Python
+
+Tools and Technologies
+
+Python
+
+Google Colab
+
+Hugging Face Transformers
+
+Mistral-7B-Instruct (Open-source LLM)
+
+Key Features
+
+Answers common health-related questions
+
+Friendly and clear responses
+
+Safety filter to block medical diagnosis or dosage advice
+
+Prompt-controlled AI behavior
+
+Fully runs on Google Colab without paid APIs
+
+Prompt Engineering Strategy
+
+The chatbot uses a structured prompt that instructs the model to:
+
+Act like a helpful medical assistant
+
+Provide only general health information
+
+Avoid diagnosis, prescriptions, or treatment advice
+
+Encourage consulting healthcare professionals when needed
+
+This ensures safe and responsible AI interaction.
+
+Safety Handling
+
+The chatbot checks user queries for sensitive keywords such as:
+
+diagnosis
+
+dosage
+
+treatment
+
+prescription
+
+If such terms are detected, the chatbot responds with a safe message advising the user to consult a qualified healthcare professional.
+
+Example Queries
+
+What causes a sore throat?
+
+Is paracetamol safe for children?
+
+How can I stay healthy during flu season?
 ---
 
 ## How to Run the Project
